@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+}
+
+.feed{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+
+    max-width: 50%;
+    justify-self: center;
+}
+
+.feed-header{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 4px;
+}
+.header-sec{
+    display: flex;
+}
+.feed-header, .header-sec{
+    align-items: center;
+}
+.left icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.feed-footer-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 4px;
+}
+article{
+    background-color: white;
+}
